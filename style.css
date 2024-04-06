@@ -1,0 +1,77 @@
+body {
+    background-color: #e8f1f7; 
+    margin: 0; 
+    font-family: 'Open Sans', sans-serif; 
+  }
+  .resume-container {
+    width: 60%; 
+    max-width: 1200px; 
+    margin: 40px auto; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #ffffff; 
+    
+    
+  }
+  
+  /* En-tête du CV */
+  .resume-header {
+    width: 100%;
+    text-align: center; /* Centre le texte de l'en-tête */
+    margin-bottom: 20px;
+  }
+  
+  h3{
+    color: #373434; 
+  }
+  
+  /* Colonne de gauche pour Profil personnel et Contact */
+  .left-column {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre le contenu de la colonne de gauche */
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  /* Colonne de droite pour les autres sections */
+  .main-column {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre le contenu de la colonne principale */
+  }
+  
+  /* Styles pour toutes les sections */
+  .left-column section, .main-column section {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center; /* Centre le texte dans les sections */
+  }
+  
+  /* Titres des sections */
+  h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #5f89a5;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #477b9d;
+  }
+  
+  /* Contenu des sections */
+  p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  h1{
+    color: #4c4141; 
+  }
+  
+  
